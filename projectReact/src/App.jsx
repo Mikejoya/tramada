@@ -28,6 +28,8 @@ function App() {
       { path: '/OrdenProduccion', element: <OrdenProduccion user={user} setUser={setUser}/> },
       { path: '/Config', element: <Config user={user} setUser={setUser}/>},
       { path: '/suppliers', element: <Suppliers user={user} setUser={setUser} /> },
+      
+
     ])
     return routes;
   }

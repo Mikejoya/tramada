@@ -59,8 +59,7 @@ export function FormRegister ({
         <button className="button-back" onClick={() => navigate('/home')} />
         <div className="menu-productos-container">
           <h1>Gestión de {textButton}</h1>
-  
-          {/* Formulario para agregar o modificar productos */}
+
           <form onSubmit={handleSubmit} className="form-producto">
             <div className="form-group">
               <label>Nombre del {textButton}</label>
