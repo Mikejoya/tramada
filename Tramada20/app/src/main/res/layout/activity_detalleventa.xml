@@ -6,47 +6,43 @@
     android:padding="16dp">
 
     <EditText
-        android:id="@+id/etNombre"
+        android:id="@+id/etCantidad"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Nombre del Proveedor" />
+        android:hint="Cantidad"
+        android:inputType="number" />
 
     <EditText
-        android:id="@+id/etTelefono"
+        android:id="@+id/etPrecioUnitario"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Teléfono"
-        android:inputType="phone" />
+        android:hint="Precio Unitario"
+        android:inputType="number" />
 
     <EditText
-        android:id="@+id/etDireccion"
+        android:id="@+id/etSubtotal"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Dirección" />
+        android:hint="Subtotal"
+        android:inputType="number" />
 
     <EditText
-        android:id="@+id/etCorreo"
+        android:id="@+id/etVentasId"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Correo Electrónico"
-        android:inputType="textEmailAddress" />
+        android:hint="ID Venta"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etProductosId"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="ID Producto"
+        android:inputType="number" />
 
     <Button
-        android:id="@+id/btnGuardar"
+        android:id="@+id/btnGuardarDetalleVenta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Guardar" />
-
-    <Button
-        android:id="@+id/btnVenta"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Venta" />
-
-    <Button
-        android:id="@+id/btnProducto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Productos" />
-
+        android:text="Guardar Detalle Venta" />
 </LinearLayout>

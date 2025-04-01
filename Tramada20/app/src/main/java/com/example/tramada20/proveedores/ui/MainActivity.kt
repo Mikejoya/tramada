@@ -1,5 +1,6 @@
 package com.example.tramada20.proveedores.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -10,8 +11,11 @@ import com.example.tramada20.proveedores.models.Proveedor
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import com.example.tramada20.R
 
 class MainActivity : AppCompatActivity() {
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,6 +26,8 @@ class MainActivity : AppCompatActivity() {
         val etDireccion = findViewById<EditText>(R.id.etDireccion)
         val etCorreo = findViewById<EditText>(R.id.etCorreo)
         val btnGuardar = findViewById<Button>(R.id.btnGuardar)
+        val btnVenta = findViewById<Button>(R.id.btnVenta)
+        val btnProductos = findViewById<Button>(R.id.btnProducto)
 
         btnGuardar.setOnClickListener {
             val nombre = etNombre.text.toString().trim()
@@ -49,6 +55,14 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this@MainActivity, "Fallo en la conexión", Toast.LENGTH_SHORT).show()
                 }
             })
+        }
+        btnVenta.setOnClickListener{
+            val intent = Intent(this, VentaActivity::class.java)
+            startActivity(intent)
+        }
+        btnProductos.setOnClickListener{
+            val intent = Intent(this, ProductoActivity::class.java)
+            startActivity(intent)
         }
     }
 }

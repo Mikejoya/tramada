@@ -2,6 +2,7 @@ package com.example.tramada20.proveedores.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import com.example.tramada20.proveedores.api.ApiService.ApiService
 
 object ApiClient {
     private const val BASE_URL = "http://localhost:3000/"

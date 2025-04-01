@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etFechaVenta"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Fecha de Venta" />
+
+    <EditText
+        android:id="@+id/etEstadoPago"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Estado de Pago" />
+
+    <EditText
+        android:id="@+id/etTipoVenta"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Tipo de Venta" />
+
+    <EditText
+        android:id="@+id/etTotalVenta"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Total Venta"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etComentarios"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Comentarios" />
+
+    <EditText
+        android:id="@+id/etClienteId"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="ID Cliente"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnGuardarVenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Venta" />
+
+    <Button
+        android:id="@+id/btnAbrirDetalleVenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Detalle de Venta" />
+
+</LinearLayout>

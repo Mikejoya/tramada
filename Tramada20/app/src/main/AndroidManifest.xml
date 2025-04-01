@@ -14,6 +14,7 @@
         tools:targetApi="31">
         <activity
             android:name=".proveedores.ui.MainActivity"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +22,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".proveedores.ui.VentaActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".proveedores.ui.ProductoActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".proveedores.ui.DetalleVentaActivity"
+            android:exported="true"/>
+
+
     </application>
 
 </manifest>

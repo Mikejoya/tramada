@@ -1,4 +1,4 @@
-INSERT INTO `rol` (`nombre_rol`) VALUES 
+6INSERT INTO `rol` (`nombre_rol`) VALUES 
 ('Administrador'),
 ('Empleado');
 

@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etNombreProducto"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Nombre del producto" />
+
+        <EditText
+            android:id="@+id/etGeneroProducto"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Género del producto" />
+
+        <EditText
+            android:id="@+id/etTipoProducto"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Tipo de producto" />
+
+        <EditText
+            android:id="@+id/etTallaProducto"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Talla" />
+
+        <EditText
+            android:id="@+id/etColorProducto"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Color" />
+
+        <EditText
+            android:id="@+id/etPesoProducto"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Peso (gramos)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etCantidadProducto"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Cantidad"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etPrecioProducto"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Precio"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etCategoriaProducto"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="ID de Categoría" />
+
+        <Button
+            android:id="@+id/btnGuardarProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar Producto" />
+
+    </LinearLayout>
+</ScrollView>
