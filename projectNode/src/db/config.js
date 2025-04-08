@@ -3,7 +3,7 @@ const { config } = require("../config/config.js");
 
 const options = {
   host: config.dbHost,
-  user: config.dbUser,
+  user: config.dbHost,
   password: config.dbPassword,
   database: config.dbName,
   connectionLimit: 10,
